@@ -1,3 +1,5 @@
+A simple makefile for building google docs with a latex compiler.
+
 Prerequisites
 =============
 
@@ -10,5 +12,15 @@ Usage
 =====
 Checkout the makefile from the github repository.
 
+	$ git checkout git://github.com/marmbrus/gtex.git <papername>
+	
+Update the `FILENAME` and `DOCTITLE` variables in the Makefile.  Create a doc in google docs with named `DOCTITLE`
+	
+Tips
+====
+You can embed the bibliography inside your document by placing the `filecontents` environment at the top.
 
-	$ git checkout 
+	\begin{filecontents*}{google.statement.bib}
+		@inproceedings...
+		
+	\end{filecontents*}
