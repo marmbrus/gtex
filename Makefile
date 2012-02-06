@@ -1,5 +1,5 @@
-DOCTITLE="Google Statement of purpose"
-FILENAME="google.statement"
+DOCTITLE=""
+FILENAME=""
 
 all:
 	google docs get --title $(DOCTITLE) --dest $(FILENAME) --format txt
