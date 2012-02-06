@@ -14,7 +14,7 @@ Checkout the makefile from the github repository.
 
 	$ git checkout git://github.com/marmbrus/gtex.git <papername>
 	
-Update the `FILENAME` and `DOCTITLE` variables in the Makefile.  Create a doc in google docs with named `DOCTITLE`
+Update the `FILENAME` and `DOCTITLE` variables in the Makefile.  Create a doc in google docs named `DOCTITLE`.
 	
 Tips
 ====
